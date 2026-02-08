@@ -1,0 +1,262 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.reveal{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.7s ease;
+}
+
+.reveal.active{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #0f172a;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#contactBtn{
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    border: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100vh;
+    padding: 60px;
+}
+
+/* Hero Left */
+
+.hero-left{
+    max-width: 50%;
+
+}
+
+.hero-left h2{
+    font-size: 2em;
+    margin-top: 1.2em;
+}
+
+.hero-left p{
+    margin-top: 10px;
+}
+
+.hero-left button{
+    padding: 7px 14px;
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(94, 94, 221);
+    cursor: pointer;
+}
+
+/* Hero-right */
+.hero-right{
+    width: 350px;
+}
+
+.form-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+.form-card h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.form-card input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-card #signUp{
+    padding: 10px 20px;
+    background-color: rgb(94, 94, 221); ;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+
+/* Main Content */
+.heading-2{
+    text-align: center;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 5rem 8%;
+}
+
+.image img{
+    width: 100%;
+    max-width: 450px;
+}
+
+.content2{
+    max-width: 500px;
+}
+
+.content2 h3{
+    font-size: 2.2em;
+}
+
+.content2 p{
+    color: #555;
+}
+
+/* Contact Form */
+.contact {
+    max-width: 550px;        /* increased form size */
+    margin: 60px auto;
+    padding: 35px;          /* more inner space */
+    background: #f2f2f2;    /* light grey container */
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact h2 {
+    margin-bottom: 8px;
+  }
+  
+  .contact p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 14px;          /* bigger input fields */
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 14px;
+    background: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #4338ca;
+  }
+
+  /* Footer */
+  .modern-footer {
+    background: #111827;
+    color: #d1d5db;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+  
+  .footer-col h3,
+  .footer-col h4 {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-col ul li a {
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #6366f1;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #1f2937;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #9ca3af;
+  }
+  
+  
